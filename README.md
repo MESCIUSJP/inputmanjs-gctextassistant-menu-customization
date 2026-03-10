@@ -1,7 +1,7 @@
 # inputmanjs-gctextassistant
-InputManJSのAI文章作成アシスタントの使用方法を解説したサンプルです。  
+InputManJSのAI文章作成アシスタントのアシスタントメニューをカスタマイズするサンプルです。
 
-![gctextassistant](https://github.com/user-attachments/assets/86b4ee2b-61ef-4900-83dd-a175444fcb23)
+https://github.com/user-attachments/assets/3fbc5416-72aa-4080-b912-5340689c36de
 
 `.env`ファイルにGemini APIのキーを、`client/.env`ファイルにInputManJSのライセンスキーを設定してください。  
 InputManJSのライセンスキーを設定しない場合は、トライアル版を示すメッセージが表示されます。
