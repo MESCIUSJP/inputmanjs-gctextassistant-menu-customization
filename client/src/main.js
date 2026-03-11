@@ -49,7 +49,7 @@ GC.InputMan.ConfigurationManager.registerAIService(async (context) => {
 });
 
 GC.InputMan.AI.GcTextAssistant.registerBehavior('広告チェック', {
-  prompt: '文章について、法令・ガイドライン違反の可能性（薬機法、景品表示法、誇大表現、優良誤認など）がないかをチェックして修正してください。',
+  prompt: '文章について、法令・ガイドライン違反の可能性（薬機法、景品表示法、誇大表現、優良誤認など）がないか、消費者に誤解を与える表現がないか、根拠不明・断定的・過度な効果表現がないか、炎上・クレームにつながるリスク表現がないか、広告としての分かりやすさ・信頼性、などの観点でチェックして修正してください。',
   dialogConfig: {
     isModal: true,
     resource: {
