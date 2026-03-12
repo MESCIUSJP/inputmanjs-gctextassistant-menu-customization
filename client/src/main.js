@@ -81,7 +81,6 @@ const gcRichTextEditor = new GC.InputMan.GcRichTextEditor(
       ],
       behaviorConfig: {
         dialogConfig: {
-          style: GC.InputMan.AI.GcTextAssistantDialogStyle.Detail,
           width: 700,
           height: 300,
         }
